@@ -1,6 +1,6 @@
-# REMEDA Stage346
+# REMEDA Stage347
 
-## Multi-Artifact Verification Layer
+## Quantum-Safe Behavior Template Layer
 
 Stage346 extends Stage345 by verifying multiple public verification artifacts as one connected evidence set.
 
