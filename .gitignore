@@ -16,3 +16,5 @@ keys/
 *.db
 node_modules/
 __pycache__/
+.venv/
+downloaded_stage345_artifact/
