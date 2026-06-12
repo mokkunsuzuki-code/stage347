@@ -426,6 +426,29 @@ generateStage328();
     <a href="./quantum/quantum_safe_behavior_decision.json">Quantum-Safe Behavior Decision</a>
   </p>
 </section>
+
+<section>
+  <h2>Stage347: Quantum-Safe Behavior Template Layer</h2>
+  <p>
+    Stage347 extends Stage346 by adding PQC/QKD behavior templates to the multi-artifact verification layer.
+  </p>
+
+  <ul>
+    <li>PQC behavior template validation</li>
+    <li>QKD behavior template validation</li>
+    <li>ML-KEM / ML-DSA / SLH-DSA metadata confirmation</li>
+    <li>QKD key-session and failover metadata confirmation</li>
+    <li>safe metadata only: no private keys, no raw key material</li>
+    <li>pass / fail / unknown decision output</li>
+  </ul>
+
+  <p>
+    <a href="./quantum/quantum_safe_behavior_templates.json">Quantum-Safe Behavior Templates</a><br>
+    <a href="./quantum/quantum_safe_behavior_input.json">Quantum-Safe Behavior Input</a><br>
+    <a href="./quantum/quantum_safe_behavior_decision.json">Quantum-Safe Behavior Decision</a>
+  </p>
+</section>
+
 </body>
 </html>
 
@@ -1002,7 +1025,7 @@ fetch("./docs/stage335/watch-summary.json")
 </section>
 
 <section id="stage346-multi-artifact-verification-layer">
-  <h2>Stage347: Quantum-Safe Behavior Template Layer</h2>
+  <h2>Stage346: Multi-Artifact Verification Layer</h2>
 
   <p>
     Stage346 extends Stage345 by verifying multiple public verification artifacts as one connected evidence set.
